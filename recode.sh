@@ -121,17 +121,7 @@ echo $red"_______________________________________________"
 
 echo ""
 
-figlet Loading....|lolcat
-
-cd /storage
-
-ls
-
-cd /storage/0403-0201
-
-ls
-
-sh kalilinux.sh
+sh toolsddos.sh
 
 fi
 
