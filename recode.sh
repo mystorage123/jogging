@@ -408,7 +408,7 @@ apt install python2
 apt install git
 git clone https://github.com/Ubaii/script-deface-creator
 ls
-cd-scrpit-deface-creator
+cd scrpit-deface-creator
 ls
 chmod +x create.py
 ls
