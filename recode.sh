@@ -54,7 +54,7 @@ echo $cyan"11).Brute force Facebook"
 echo $red"-----------------------------"
 echo $cyan"12).Bom spam"
 echo $red"-----------------------------"
-echo $cyan"13).Bot komen Facebook"
+echo $cyan"13).Hack Facebook mbf"
 echo $red"-----------------------------"
 echo $cyan"14).Install metasploit"
 echo $red"-----------------------------"
@@ -293,13 +293,13 @@ echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
 echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
 echo $red"_______________________________________________"
 echo ""
-pkg update && pkg upgrade
-pkg install git
-pkg install python2
+apt update && apt upgrade
+pkg install python2 git
 pip2 install mechanize 
-git clone https://github.com/Senitopeng/botkomena.git
-cd botkomena
-python2 botkomena.py
+git clone https://github.com/pirmansx/mbf
+ls
+cd mbf
+python2 MBF.py
 fi
 
 if [ $akm = 14 ] || [ $akm = 14 ]
@@ -318,7 +318,7 @@ pkg install curl
 pkg install python
 pkg install python2
 curl- LO https://raw.githubusercontent.com/Techzindia/Metasploit_For_Termux/master
-/metasploitTechzindia.sh
+./metasploitTechzindia.sh
 ls
 chmod 777 metasploitTechzindia.sh
 ./metasploitTechzindia.sh
