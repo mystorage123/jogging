@@ -413,6 +413,7 @@ ls
 chmod +x create.py
 ls
 python2 create.py
+fi
 
 if [ $akm = 19 ] || [ $akm = 19 ]
 then
