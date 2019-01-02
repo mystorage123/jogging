@@ -412,6 +412,8 @@ cd scrpit-deface-creator
 ls
 chmod +x create.py
 ls
+cd script-deface-creator
+ls
 python2 create.py
 fi
 
