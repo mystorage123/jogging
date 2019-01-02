@@ -313,18 +313,17 @@ echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
 echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
 echo $red"_______________________________________________"
 echo ""
-pkg update && pkg upgrade
-pkg install curl
-pkg install python
-pkg install python2
-curl- LO https://raw.githubusercontent.com/Techzindia/Metasploit_For_Termux/master
-./metasploitTechzindia.sh
-ls
-chmod 777 metasploitTechzindia.sh
-./metasploitTechzindia.sh
-ls
-cd metasploit-framework
-./msfconsole
+apt install git python python2
+git clone https://github.com/Techzindia/Tool-X
+cd Tool-X
+chmod +x install.aex
+clear
+./install.aex
+y
+Tool-X
+3
+00
+1
 fi
 
 if [ $akm = 15 ] || [ $akm = 15 ]
@@ -380,14 +379,11 @@ echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
 echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
 echo $red"_______________________________________________"
 echo ""
-apt update
-apt upgrade
-pkg install git
-pkg install python2
-pkg install php
+apt update && apt upgrade
+apt install python2 git php curl
 git clone https://github.com/UndeadSec/SocialFish
-cd SocialFish
-pip install -r requirements.txt
+cd socialfish
+pip2 install -r requirements.txt
 python2 SocialFish.py
 fi
 
