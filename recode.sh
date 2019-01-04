@@ -308,8 +308,9 @@ echo ""
 apt-get update
 apt-get upgrade
 pkg install nmap
-read -p "masukan bug yang anda inginkan>" bug
-nmap -p 80 --script dns-brute.nse bug
+echo "${y} Masukkan bug${endc}:"
+read bug
+nmap -p 80 --script dns-brute.nse $bug
 fi
 
 if [ $akm = 14 ] || [ $akm = 14 ]
