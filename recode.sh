@@ -472,7 +472,7 @@ echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
 echo $red"_______________________________________________"
 echo ""
 echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
-echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-mengakses-file-sd-card-di-termux.html?m=1
+echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-mengakses-file-sd-card-di-termux.html?m=1"
 fi
 
 if [ $akm = 22 ] || [ $akm = 22 ]
@@ -487,10 +487,39 @@ echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
 echo $red"_______________________________________________"
 echo ""
 echo $white "copy link dibawah ini, lalu kalian pastekan link itu di browser"
+echo $yellow "https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-membuat-link-phising-yang-mudah.html?m=1"
+fi
 
 
+if [ $akm = 23 ] || [ $akm = 23 ]
+then
+clear
+echo $red"_______________________________________________"
+echo $green" yyyy   yyyy  GGGGGGGGGGG  mmmmmmmmmmmmmmmm"
+echo $green" yyyy   yyyy  GGGG         mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGG   GGGG  mmmm  mmmm  mmmm"
+echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
+echo $red"_______________________________________________"
+echo ""
+echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
+echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-mengubah-kuota-videomax-menjadi_25.html?m=1"
+fi
 
-
+if [ $akm = 24 ] || [ $akm = 24 ]
+then
+clear
+echo $red"_______________________________________________"
+echo $green" yyyy   yyyy  GGGGGGGGGGG  mmmmmmmmmmmmmmmm"
+echo $green" yyyy   yyyy  GGGG         mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGG   GGGG  mmmm  mmmm  mmmm"
+echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
+echo $red"_______________________________________________"
+echo ""
+echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
+echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-membuat-virus-komputer.html?m=1
+fi
 
 
 
