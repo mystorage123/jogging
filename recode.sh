@@ -54,7 +54,7 @@ echo $cyan"11).Brute force Facebook"
 echo $red"-----------------------------"
 echo $cyan"12).Bom spam"
 echo $red"-----------------------------"
-echo $cyan"13).Hack Facebook mbf"
+echo $cyan"13).Mencari bug"
 echo $red"-----------------------------"
 echo $cyan"14).Install metasploit"
 echo $red"-----------------------------"
@@ -310,9 +310,6 @@ apt-get upgrade
 pkg install nmap
 read -p "masukan bug yang anda inginkan>" bug
 nmap -p 80 --script dns-brute.nse bug
-ls
-cd mbf
-python2 MBF.py
 fi
 
 if [ $akm = 14 ] || [ $akm = 14 ]
@@ -448,7 +445,48 @@ cd sqlmap
 python2 sqlmap.py
 fi
 
+if [ $akm = 20 ] || [ $akm = 20 ]
+then
+clear
+echo $red"_______________________________________________"
+echo $green" yyyy   yyyy  GGGGGGGGGGG  mmmmmmmmmmmmmmmm"
+echo $green" yyyy   yyyy  GGGG         mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGG   GGGG  mmmm  mmmm  mmmm"
+echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
+echo $red"_______________________________________________"
+echo ""
+echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
+echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2019/01/cara-membuat-nama-kosong-di-whatsapp.html?m=1
+fi
 
+if [ $akm = 21 ] || [ $akm = 21 ]
+then
+clear
+echo $red"_______________________________________________"
+echo $green" yyyy   yyyy  GGGGGGGGGGG  mmmmmmmmmmmmmmmm"
+echo $green" yyyy   yyyy  GGGG         mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGG   GGGG  mmmm  mmmm  mmmm"
+echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
+echo $red"_______________________________________________"
+echo ""
+echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
+echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-mengakses-file-sd-card-di-termux.html?m=1
+fi
+
+if [ $akm = 22 ] || [ $akm = 22 ]
+then
+clear
+echo $red"_______________________________________________"
+echo $green" yyyy   yyyy  GGGGGGGGGGG  mmmmmmmmmmmmmmmm"
+echo $green" yyyy   yyyy  GGGG         mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGG   GGGG  mmmm  mmmm  mmmm"
+echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
+echo $red"_______________________________________________"
+echo ""
+echo $white "copy link dibawah ini, lalu kalian pastekan link itu di browser"
 
 
 
