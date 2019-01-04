@@ -445,6 +445,7 @@ cd sqlmap
 python2 sqlmap.py
 fi
 
+
 if [ $akm = 20 ] || [ $akm = 20 ]
 then
 clear
@@ -457,8 +458,9 @@ echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
 echo $red"_______________________________________________"
 echo ""
 echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
-echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2019/01/cara-membuat-nama-kosong-di-whatsapp.html?m=1
+echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2019/01/cara-membuat-nama-kosong-di-whatsapp.html?m=1"
 fi
+
 
 if [ $akm = 21 ] || [ $akm = 21 ]
 then
@@ -474,6 +476,7 @@ echo ""
 echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
 echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-mengakses-file-sd-card-di-termux.html?m=1"
 fi
+
 
 if [ $akm = 22 ] || [ $akm = 22 ]
 then
@@ -506,6 +509,7 @@ echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
 echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-mengubah-kuota-videomax-menjadi_25.html?m=1"
 fi
 
+
 if [ $akm = 24 ] || [ $akm = 24 ]
 then
 clear
@@ -520,6 +524,7 @@ echo ""
 echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
 echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-membuat-virus-komputer.html?m=1"
 fi
+
 
 if [ $akm = 25 ] || [ $akm = 25 ]
 then
