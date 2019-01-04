@@ -42,7 +42,7 @@ echo $cyan"5).Ping google.com"
 echo $red"-----------------------------"
 echo $cyan"6).Spam wa Bukalapak"
 echo $red"-----------------------------"
-echo $cyan"7).Hack cctv"
+echo $cyan"7).Kumpulan ip cctv"
 echo $red"-----------------------------"
 echo $cyan"8).Nuyul kubik"
 echo $red"-----------------------------"
@@ -518,9 +518,23 @@ echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
 echo $red"_______________________________________________"
 echo ""
 echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
-echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-membuat-virus-komputer.html?m=1
+echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-membuat-virus-komputer.html?m=1"
 fi
 
+if [ $akm = 25 ] || [ $akm = 25 ]
+then
+clear
+echo $red"_______________________________________________"
+echo $green" yyyy   yyyy  GGGGGGGGGGG  mmmmmmmmmmmmmmmm"
+echo $green" yyyy   yyyy  GGGG         mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGG   GGGG  mmmm  mmmm  mmmm"
+echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
+echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
+echo $red"_______________________________________________"
+echo ""
+echo $white" copy link dibawah ini, lalu kalian pastekan link itu di browser"
+echo $yellow" https://wwwomaewamoushindeiru.blogspot.com/2018/12/cara-spam-wa-bukalapak-lewat-termux.html?m=1"
+fi
 
 
 
