@@ -69,7 +69,7 @@ echo $red"-----------------------------"
 echo $cyan"19).Install sql map"
 echo $red"-----------------------------"
 echo ""
-read -p"No. Pilihan ===>>" akm;
+read -p"No. Pilihan:" akm;
 
 if [ $akm = 1 ] || [ $akm = 1 ]
 then
@@ -293,10 +293,11 @@ echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
 echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
 echo $red"_______________________________________________"
 echo ""
-apt update && apt upgrade
-pkg install python2 git
-pip2 install mechanize 
-git clone https://github.com/pirmansx/mbf
+apt-get update
+apt-get upgrade
+pkg install nmap
+read -p "masukan bug yang anda inginkan>" bug
+nmap -p 80 --script dns-brute.nse bug
 ls
 cd mbf
 python2 MBF.py
