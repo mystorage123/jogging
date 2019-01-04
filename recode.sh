@@ -62,7 +62,7 @@ echo $cyan"15).Install osif"
 echo $red"-----------------------------"
 echo $cyan"16).Scanner inurlbr"
 echo $red"-----------------------------"
-echo $cyan"17).Install social fish"
+echo $cyan"17).Dekorasi termux"
 echo $red"-----------------------------"
 echo $cyan"18).Membuat script deface"
 echo $red"-----------------------------"
@@ -379,12 +379,14 @@ echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
 echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
 echo $red"_______________________________________________"
 echo ""
-apt update && apt upgrade
-apt install python2 git php curl
-git clone https://github.com/UndeadSec/SocialFish
-cd socialfish
-pip2 install -r requirements.txt
-python2 SocialFish.py
+pkg update && pkg upgrade
+pkg install ruby cowsaw toilet figlet
+pkg install neofetch
+pkg install screenfetch
+pkg install nano
+gem install lolcat
+cd ../usr/etc
+nano bash.bashrc
 fi
 
 if [ $akm = 18 ] || [ $akm = 18 ]
